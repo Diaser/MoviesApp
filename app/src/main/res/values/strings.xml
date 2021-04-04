@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Multipantalla</string>
+
+    <integer-array name="array_images">
+        <item>@drawable/abcdelamor</item>
+        <item>@drawable/dejameentrar</item>
+        <item>@drawable/entrevistaconelvampiro</item>
+        <item>@drawable/inframundo</item>
+        <item>@drawable/labruja</item>
+        <item>@drawable/losjuegosdelhambre</item>
+        <item>@drawable/starshiptroppers</item>
+    </integer-array>
+
+    <string-array name="movies_name">
+        <item>Abc del amor</item>
+        <item>Déjame entrar</item>
+        <item>Entrevista con el vampiro</item>
+        <item>Inframundo</item>
+        <item>La bruja</item>
+        <item>Los juegos del hambre</item>
+        <item>Invasión</item>
+    </string-array>
+
+</resources>
