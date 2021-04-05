@@ -1,19 +1,19 @@
 package com.mx.monzon.multipantalla.model;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Movie {
+public class Movie implements Serializable {
     private String name;
     private int image;
-    private String[] names;
-    private int[] images;
+    private String description;
 
-    public Movie(String[] names, int[] images){
-        this.names =  names;
-        this.images =  images;
+    public Movie(String name, String description, int image){
+        this.name = name;
+        this.description = description;
+        this.image = image;
     }
-    private Movie(){}
 
     public String getName() {
         return name;
@@ -31,18 +31,11 @@ public class Movie {
         this.image = image;
     }
 
-
-    public List<Movie> inizialiteList(){
-        List<Movie> list = new ArrayList<>();
-        for (int i=0; i< names.length; i++ )
-        {
-            Movie movie = new Movie();
-            movie.setName(this.names[i]);
-            movie.setImage(this.images[i]);
-            list.add(movie);
-        }
-        return  list;
+    public String getDescription() {
+        return description;
     }
 
-
+    public void setDescription(String description) {
+        this.description = description;
+    }
 }

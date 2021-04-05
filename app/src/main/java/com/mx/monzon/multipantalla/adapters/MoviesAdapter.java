@@ -51,6 +51,7 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MovieViewH
         return list.size();
     }
 
+
     @Override
     public MovieViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
         View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.cardview_movies_item, viewGroup, false);
@@ -73,6 +74,10 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MovieViewH
     public void onAttachedToRecyclerView(RecyclerView recyclerView) {
         super.onAttachedToRecyclerView(recyclerView);
     }
+    public Movie getItem(int position){
+        return list.get(position);
+    }
+
     public interface OnAdapterListener{
         void onMovieClick(int position);
     }

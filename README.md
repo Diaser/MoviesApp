@@ -1,4 +1,4 @@
-#Multipantala (creando una aplicación con soporte para tablet)
+# Multipantala (creando una aplicación con soporte para tablet)
 Esta utilizará fragmentos para mostrar un fragmento si es vista desde celular y usara dos fragmentos si es vista desde una tableta(tablet)
 
 
