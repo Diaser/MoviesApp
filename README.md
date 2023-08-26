@@ -4,3 +4,5 @@ Esta utilizará fragmentos para mostrar un fragmento si es vista desde celular y
 
 Se da ejemplo de como usar un Adapter con Cardview y como implementar un Onclick en el Recyclerview
 Así mismo se observa como trabajar con fragmentos
+
+Daremos ejemplo de git push
